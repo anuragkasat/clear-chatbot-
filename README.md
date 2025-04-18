@@ -17,23 +17,10 @@ This project is a **PDF-based Q&A chatbot** built with **Streamlit**, **FAISS** 
 ## 🛠️ Installation
 
 ### **1️⃣ Clone the Repository**
-```bash
-git clone https://github.com/ShubhamMandowara/llm_rag.git
-cd pdf-qna-chatbot
-```
 
 ### **2️⃣ Create a Virtual Environment**
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
 
 ### **3️⃣ Install Dependencies**
-```bash
-pip install -r requirements.txt
-```
-
----
 
 ## 🔑 Set Up Hugging Face API Token
 1. Get your API token from [Hugging Face Tokens](https://huggingface.co/settings/tokens).
@@ -109,7 +96,3 @@ HF_MODEL = "mistralai/Mistral-7B-Instruct"  # Change to your preferred model
 ## 📜 License
 This project is **open-source** under the GPL-3.0 License.
 
----
-
-## 👨‍💻 Author
-Developed by [Shubham Mandowara](https://github.com/shubhammandowara). Contributions are welcome! 😊🚀
